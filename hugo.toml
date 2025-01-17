@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Reichan Site'
 
 theme = 'hugo-theme-reimu'
+
+[params]
+  pjax = true

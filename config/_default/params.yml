@@ -26,7 +26,7 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: Manager
+author: Reichan
 description: "The manager"
 subtitle: "The manager"
 
@@ -75,6 +75,14 @@ footer:
 # Sidebar
 sidebar: left
 
+home_categories:
+  enable: true # Whether to display the home category card?
+  content:
+    - categories:  # Category name, the format is consistent with the categories in the front-matter, which can be a string (single-level category) or an array (multi-level category)
+      cover: # Card cover, if not filled in, a random cover will be used
+    - categories:
+      cover:
+
 social:
   # email: mailto:xxx@gmail.com
   # github: https://github.com/Alekssandher
@@ -103,10 +111,11 @@ social:
   # steam: https://steamcommunity.com/id/yourname
 
 widgets:
+  - recent_posts
   - category
   - tag
   - tagcloud
-  - recent_posts
+ 
 
 # Widget behavior
 recent_posts_limits: 5
@@ -151,7 +160,7 @@ local_font:
     - monospace
 
 dark_mode:
-  enable: false # set to true to make your website default to dark mode
+  enable: true # set to true to make your website default to dark mode
 
 ########################################
 # Analytics
@@ -276,7 +285,7 @@ giscus:
   emitMetadata: 0
   inputPosition: bottom
   # commentTheme: preferred_color_scheme invalid
-  lang: zh-CN
+  lang: en-US
 
 ########################################
 # Search
@@ -417,9 +426,9 @@ sponsor:
 # Share
 share:
   # - facebook
-  # - twitter
+   - twitter
   # - linkedin
-  # - reddit
+   - reddit
   # - weibo
   # - qq
   # - weixin
@@ -457,7 +466,7 @@ live2d:
 # Experimental
 live2d_widgets:
   enable: false
-  position: left # left or right
+  position: right # left or right
 
 # https://github.com/CodeByZach/pace
 pace:
@@ -473,13 +482,13 @@ player:
     options:
       audio: []
       fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
+      autoplay: true
+      loop: true
+      order: 'random'
+      preload: 'auto'
+      volume: 100
+      mutex: true
+      listFolded: true
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
