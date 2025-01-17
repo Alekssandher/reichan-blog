@@ -19,7 +19,7 @@
   
 
 <title>
-  Reichan | Reichan
+  Reichan Site | Reichan
 </title>
 <meta
   name="description"
@@ -105,7 +105,7 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Reichan | Reichan" />
+  <meta property="og:title" content="Reichan Site | Reichan" />
   <meta
     property="og:description"
     content="Reichan"
@@ -120,8 +120,8 @@
     content="/reichan-site/"
   />
   <meta property="article:author" content="Reichan" />
-  <meta property="article:published_time" content="2022-06-09T20:12:52&#43;08:00" />
-  <meta property="article:modified_time" content="2022-06-09T20:12:52&#43;08:00" />
+  <meta property="article:published_time" content="2024-01-17T11:41:00-03:00" />
+  <meta property="article:modified_time" content="2025-01-17T11:41:00-03:00" />
   
   
   <meta name="twitter:card" content="summary" />
@@ -221,7 +221,7 @@
           </svg>
         
       </div>
-      <div class="loading-word">少女祈祷中...</div>
+      <div class="loading-word">Loading...</div>
     </div>
   </div>
   </div>
@@ -310,6 +310,8 @@
   <nav id="sub-nav">
     
     
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a>
+    
   </nav>
 </div>
 <header id="header">
@@ -318,7 +320,7 @@
       
     </picture>
     
-      <img fetchpriority="high" src="/reichan-site/images/reibanner.jpg" alt="Reichan">
+      <img fetchpriority="high" src="/reichan-site/images/reibanner.jpg" alt="Reichan Site">
     
   
 
@@ -332,7 +334,7 @@
   
         
           <a href="/reichan-site/" id="logo">
-            <h1 data-aos="slide-up">Reichan</h1>
+            <h1 data-aos="slide-up">Reichan Site</h1>
           </a>
         
       
@@ -626,11 +628,11 @@
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2022-06-09 20:12:52 &#43;0800 &#43;0800" itemprop="datePublished"
-      >2022-06-09</time
+    <time datetime="2024-01-17 11:41:00 -0300 -03" itemprop="datePublished"
+      >2024-01-17</time
     >
     <time style="display: none;" id="post-update-time"
-      >2022-06-09</time
+      >2025-01-17</time
     >
   </a>
 </div>
@@ -645,7 +647,13 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <p>Reichan is the future of chans</p>
+        <h2 id="about-reichan">
+<a class="header-anchor" href="#about-reichan"></a>
+About Reichan
+</h2><p>Reichan is an innovative project that aims to bring the power of modern web technologies and API design to a new level. It&rsquo;s a platform for the development and exploration of APIs, front-end interfaces, and community-driven content.</p>
+<p>At the heart of the Reichan project is Reichan API, a robust and efficient API built using TypeScript, designed to handle various interactions and operations across different applications. Paired with Reichan Interface, a simple yet effective HTML/CSS/JS-based front-end, users are given a seamless experience to interact with the powerful backend.</p>
+<p>Beyond its development tools, Reichan is more than just a project – it’s a growing ecosystem that brings together software, design, and community. Reichan Site serves as the main hub, where users can find articles, news, and updates about the project and its future. Here, developers can dive into technical content, explore the platform’s offerings, and even contribute to its evolution.</p>
+<p>The future of chans is here with Reichan, where cutting-edge technology meets a simple, user-friendly interface and an engaging community. Stay tuned as we continue to grow and evolve.</p>
 
       
     </div>
@@ -659,13 +667,13 @@
 
 <div class="share-wrapper">
   
-    <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/reichan-site/about/&amp;text=Reichan&amp;via=http://localhost:1313/reichan-site/" target="_blank" rel="noopener noreferrer" title="Reichan">
+    <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/reichan-site/about/&amp;text=Reichan%20Site&amp;via=http://localhost:1313/reichan-site/" target="_blank" rel="noopener noreferrer" title="Reichan Site">
       <div class="share-icon icon icon-twitter">
         
       </div>
     </a>
   
-    <a href="https://www.reddit.com/submit?url=http://localhost:1313/reichan-site/about/&amp;title=Reichan" target="_blank" rel="noopener noreferrer" title="Reichan">
+    <a href="https://www.reddit.com/submit?url=http://localhost:1313/reichan-site/about/&amp;title=Reichan%20Site" target="_blank" rel="noopener noreferrer" title="Reichan Site">
       <div class="share-icon icon icon-reddit">
         
       </div>
@@ -743,7 +751,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            44
+            171
           </span
         >
         &nbsp;|&nbsp;
@@ -894,6 +902,22 @@
 
     </div>
     
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/reichan-site/images/reimu.png" />
+        </div>
+      </div>
+    
     
 
 
@@ -990,6 +1014,72 @@
 
 
 
+  <script>
+    var ALGOLIA_CONFIG = {
+      logo: '\/reichan-site\/images\/algolia_logo.svg',
+      algolia: {
+        applicationID: "",
+        apiKey: "",
+        indexName: "",
+        hits: {
+          "per_page": parseInt("10")
+        },
+        labels: {
+          "input_placeholder": "搜索.....",
+          "hits_empty": "未发现与 「${query}」相关内容",
+          "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+        }
+      }
+    };
+  </script>
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
+    defer
+    
+    
+    
+    integrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"
+    defer
+    
+    
+    
+    integrity="sha384-hHJCflT4KBLQyHfKO9vpstIcFKn/Y&#43;KHTORelMMEn7mOp2AVPp&#43;7fr03dLgZiV3J" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/reichan-site/js/algolia_search.js" ></script>
+      
+
+
 
 
   
@@ -1036,7 +1126,7 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "Reichan",
-          title: "Reichan",
+          title: "Reichan Site",
           url: "http:\/\/localhost:1313\/reichan-site\/about\/",
           description: "Reichan",
           cover: "http:\/\/localhost:1313\/reichan-site\/images\/reibanner.jpg",

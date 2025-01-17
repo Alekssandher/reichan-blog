@@ -4,5 +4,9 @@ title = 'Reichan Site'
 
 theme = 'hugo-theme-reimu'
 
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
 [params]
   pjax = true

@@ -10,12 +10,15 @@ menu:
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon:   
+    icon: 
   - name: about
     url: "about"
-    icon:
+    icon: 
   - name: friend
     url: "friend"
+    icon:
+  - name: API
+    url: "api-docs"
     icon:
 
 mainSections: ["post"]
@@ -63,7 +66,7 @@ open_graph:
 excerpt_link: Read More
 
 footer:
-  since: 1932 # 2020-current year
+  since: 1932
   powered: true
   count: true
   busuanzi: true
@@ -292,7 +295,7 @@ giscus:
 ########################################
 
 algolia_search:
-  enable: false
+  enable: true
   appID:
   apiKey:
   indexName:
@@ -309,7 +312,7 @@ algolia_search:
 
 preloader:
   enable: true
-  text: 少女祈祷中...
+  text: Loading...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
 
 # see https://github.com/D-Sketon/aos.js
@@ -475,20 +478,24 @@ pace:
 # Experimental
 # Please turn on pjax to use this feature
 player:
-  # if you enable meting, you must enable aplayer first
   aplayer:
-    # https://github.com/DIYgod/APlayer
     enable: false
     options:
-      audio: []
+      audio: 
+        - name: 'Evangelion Op'
+          artist: 'Eva'
+          url: 'https://ia600907.us.archive.org/30/items/tvtunes_7772/Neon%20Genesis%20Evangelion.ogg'
+          cover: 'images/rei-nerd.webp'
+          theme: '#ebd0c2'
       fixed: true
       autoplay: true
-      loop: true
+      loop: 'all'
       order: 'random'
       preload: 'auto'
-      volume: 100
+      volume: 0.7
       mutex: true
       listFolded: true
+
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
@@ -498,4 +505,4 @@ player:
       id: 2265921590
       server: netease
       type: playlist
-      auto:
+      auto: 

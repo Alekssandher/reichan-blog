@@ -31,3 +31,4 @@ Our project is focused on developing an API that serves as the backbone of the R
 While the core of Reichan is all about the API, we’re not stopping there. The next phase of the project will involve creating a clean, simple interface using just HTML and CSS. This will allow users to interact with Reichan’s functionalities in an intuitive way.
 
 Stay tuned as we continue to build and expand Reichan! If you're a developer, or just someone interested in how APIs come to life, we’ll be sharing updates and insights throughout the journey.
+

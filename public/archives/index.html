@@ -222,7 +222,7 @@
           </svg>
         
       </div>
-      <div class="loading-word">少女祈祷中...</div>
+      <div class="loading-word">Loading...</div>
     </div>
   </div>
   </div>
@@ -306,11 +306,24 @@
         <a class="main-nav-link" href="/reichan-site/friend">Friend</a>
       </span>
     
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>
+          
+            
+              &#xe62b;
+            
+          
+        </div>
+        <a class="main-nav-link" href="/reichan-site/api-docs"></a>
+      </span>
+    
     <a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
   <nav id="sub-nav">
     <a id="nav-rss-link" class="nav-icon" href="http://localhost:1313/reichan-site/archives/index.xml" title="RSS Feed" target="_blank"></a>
     
+    
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a>
     
   </nav>
 </div>
@@ -458,6 +471,22 @@
       <div class="sidebar-menu-link">Friend</div>
     </div>
   
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/reichan-site/api-docs"
+        aria-label=""
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link"></div>
+    </div>
+  
 </div>
 
       
@@ -587,7 +616,7 @@
       
       
         <a
-          style="font-size:20px"
+          style="font-size:30px"
           href="/reichan-site/tags/reichan/"
           aria-label="Tag: Reichan"
           >Reichan</a
@@ -768,7 +797,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            44
+            171
           </span
         >
         &nbsp;|&nbsp;
@@ -910,6 +939,22 @@
       <div class="sidebar-menu-link">Friend</div>
     </div>
   
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/reichan-site/api-docs"
+        aria-label=""
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link"></div>
+    </div>
+  
 </div>
 
     
@@ -918,6 +963,22 @@
 </nav>
 
     </div>
+    
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/reichan-site/images/reimu.png" />
+        </div>
+      </div>
     
     
 
@@ -1013,6 +1074,72 @@
       <script src="/reichan-site/js/pjax_main.js" data-pjax></script>
       
 
+
+
+  <script>
+    var ALGOLIA_CONFIG = {
+      logo: '\/reichan-site\/images\/algolia_logo.svg',
+      algolia: {
+        applicationID: "",
+        apiKey: "",
+        indexName: "",
+        hits: {
+          "per_page": parseInt("10")
+        },
+        labels: {
+          "input_placeholder": "搜索.....",
+          "hits_empty": "未发现与 「${query}」相关内容",
+          "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+        }
+      }
+    };
+  </script>
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
+    defer
+    
+    
+    
+    integrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"
+    defer
+    
+    
+    
+    integrity="sha384-hHJCflT4KBLQyHfKO9vpstIcFKn/Y&#43;KHTORelMMEn7mOp2AVPp&#43;7fr03dLgZiV3J" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/reichan-site/js/algolia_search.js" ></script>
+      
 
 
 
