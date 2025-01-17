@@ -3,13 +3,13 @@ title: 'The Rise of Reichan'
 date: 2025-01-16T22:13:00-03:00
 lastmod: 2025-01-16T22:13:00-03:00
 comments: true
-cover: /images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg
+cover: /images/rei-sleeping-under-the-blanket.jpg
 tags: ['Reichan', 'API', 'TypeScript']
 categories: ['Development', 'Project']
 author: 'Reichan'
 summary: 'Discover the rise of Reichan, a journey into building an API with TypeScript!'
 slug: 'reichan-rise'
-socialImage: /images/posts/the-rise-of-reichan/social-preview.jpg
+socialImage: /images/rei-sleeping-under-the-blanket.jpg
 draft: false
 layout: post
 keywords: ['Reichan', 'API', 'TypeScript']
