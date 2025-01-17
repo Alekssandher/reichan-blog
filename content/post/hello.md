@@ -21,5 +21,13 @@ series: ['Reichan Chronicles']
 
 ![Rei liying under the blanket](images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg "Rei liying under the blanket")
 
-We are here to celebrate the rise of Reichan, but what's Reichan you must be asking yourself. Reichan Is a completely (not at all) chan, we are building our own API with TypeScript and for the next we'll make a simple html/css based interface.
+Welcome to the journey of Reichan! You might be wondering, "What exactly is Reichan?" Well, it's a completely (not at all) chan, and we’re diving deep into building a custom API with TypeScript.
+## Building Reichan: From Concept to Code
 
+Our project is focused on developing an API that serves as the backbone of the Reichan platform. By leveraging TypeScript, we aim to create a scalable, easy-to-maintain system that can grow alongside our needs. The process has been both challenging and exciting, but we’re learning more every day.
+
+## What's Next? A Simple Web Interface
+
+While the core of Reichan is all about the API, we’re not stopping there. The next phase of the project will involve creating a clean, simple interface using just HTML and CSS. This will allow users to interact with Reichan’s functionalities in an intuitive way.
+
+Stay tuned as we continue to build and expand Reichan! If you're a developer, or just someone interested in how APIs come to life, we’ll be sharing updates and insights throughout the journey.
