@@ -1,12 +1,9 @@
 baseURL = 'https://alekssandher.github.io/reichan-site/'
 languageCode = 'en-us'
-title = 'Reichan Site'
+title = 'Reichan Blog'
+description = 'Blog of the Reichan Labs. Here we talk about the latest news from Reichan Labs.'
 
 theme = 'hugo-theme-reimu'
-
-[markup.highlight]
-guessSyntax = true
-noClasses = false
 
 [params]
   pjax = true

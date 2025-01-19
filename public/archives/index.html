@@ -3,7 +3,7 @@
   lang="en-us"
   data-theme="dark"
 >
-  <head><script src="/reichan-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=reichan-site/livereload" data-no-instant defer></script>
+  <head><script src="/reichan-site/livereload.js?mindelay=10&amp;v=2&amp;port=39471&amp;path=reichan-site/livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -110,10 +110,10 @@
     property="og:description"
     content="The manager"
   />
-  <meta property="og:url" content="http://localhost:1313/reichan-site/archives/" />
+  <meta property="og:url" content="http://localhost:39471/reichan-site/archives/" />
   <meta
     property="og:site_name"
-    content="Reichan Site"
+    content="Reichan Blog"
   />
   <meta
     property="og:image"
@@ -133,7 +133,7 @@
   
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/reichan-site/archives/index.xml" title="Reichan Site">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:39471/reichan-site/archives/index.xml" title="Reichan Blog">
 
 
 <link rel="shortcut icon" href="/reichan-site/favicon.ico">
@@ -206,6 +206,13 @@
 
 
 
+
+
+
+  <link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css" />
+
+
+
   </head>
   <body>
     
@@ -215,11 +222,7 @@
     <div class="spinner-box">
       <div class="loading-taichi">
         
-          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
-            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="#ff5252" />
-            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
-          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="#ff5252" />
-          </svg>
+          <img src="/reichan-site/images/rei-img.png" alt="loading" />
         
       </div>
       <div class="loading-word">Loading...</div>
@@ -306,21 +309,10 @@
         <a class="main-nav-link" href="/reichan-site/friend">Friend</a>
       </span>
     
-      <span class="main-nav-link-wrap">
-        <div class='main-nav-icon icon rotate'>
-          
-            
-              &#xe62b;
-            
-          
-        </div>
-        <a class="main-nav-link" href="/reichan-site/api-docs"></a>
-      </span>
-    
     <a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
   <nav id="sub-nav">
-    <a id="nav-rss-link" class="nav-icon" href="http://localhost:1313/reichan-site/archives/index.xml" title="RSS Feed" target="_blank"></a>
+    <a id="nav-rss-link" class="nav-icon" href="http://localhost:39471/reichan-site/archives/index.xml" title="RSS Feed" target="_blank"></a>
     
     
       <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a>
@@ -367,6 +359,8 @@
             >
           <aside id="sidebar">
   
+    <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
+  
   
   <div class="sidebar-wrapper ">
     <div
@@ -389,7 +383,7 @@
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
@@ -399,7 +393,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -471,22 +465,6 @@
       <div class="sidebar-menu-link">Friend</div>
     </div>
   
-    <div class="sidebar-menu-link-wrap">
-      <a
-        class="sidebar-menu-link-dummy"
-        href="/reichan-site/api-docs"
-        aria-label=""
-      ></a>
-      <div class='sidebar-menu-icon icon rotate'>
-        
-          
-            &#xe62b;
-          
-        
-      </div>
-      <div class="sidebar-menu-link"></div>
-    </div>
-  
 </div>
 
       
@@ -510,7 +488,11 @@
         <ul>
           
             <li>
-              <a href="http://localhost:1313/reichan-site/post/reichan-rise/">The Rise of Reichan</a>
+              <a href="http://localhost:39471/reichan-site/post/api-changes/">API changes! We are now using C#</a>
+            </li>
+          
+            <li>
+              <a href="http://localhost:39471/reichan-site/post/reichan-rise/">The Rise of Reichan</a>
             </li>
           
         </ul>
@@ -572,6 +554,16 @@
             <li class="tag-item">
               <a
                 class="tag-link"
+                href="/reichan-site/tags/c%23/"
+                aria-label="Tag: C#"
+              >
+                C#
+              </a>
+            </li>
+          
+            <li class="tag-item">
+              <a
+                class="tag-link"
                 href="/reichan-site/tags/reichan/"
                 aria-label="Tag: Reichan"
               >
@@ -596,45 +588,6 @@
 
 
       
-        
-<div class="widget-wrapper">
-  <div
-    class="widget-wrap"
-    data-aos="fade-up"
-  >
-    <h3 class="widget-title">Tag Cloud</h3>
-    
-    <div class="widget tagcloud">
-      
-      
-        <a
-          style="font-size:20px"
-          href="/reichan-site/tags/api/"
-          aria-label="Tag: API"
-          >API</a
-        >
-      
-      
-        <a
-          style="font-size:30px"
-          href="/reichan-site/tags/reichan/"
-          aria-label="Tag: Reichan"
-          >Reichan</a
-        >
-      
-      
-        <a
-          style="font-size:20px"
-          href="/reichan-site/tags/typescript/"
-          aria-label="Tag: TypeScript"
-          >TypeScript</a
-        >
-      
-    </div>
-  </div>
-</div>
-
-      
     
   </div>
 </aside>
@@ -652,6 +605,15 @@
         >
           <a class="archives-tag-list-link" href="/reichan-site/tags/api/"
             >API</a
+          >
+        </div>
+      
+        <div
+          class="archives-tag-list-item"
+          data-aos="zoom-in"
+        >
+          <a class="archives-tag-list-link" href="/reichan-site/tags/c%23/"
+            >C#</a
           >
         </div>
       
@@ -707,7 +669,25 @@
       
         <li class="archive-article">
           <div class="archive-article-date-wrap">
-            <a href="http://localhost:1313/reichan-site/post/reichan-rise/">
+            <a href="http://localhost:39471/reichan-site/post/api-changes/">
+              <time
+                class="dt-published"
+                datetime="2025-01-18 11:41:00 -0300 -03"
+                itemprop="datePublished"
+                >2025-01</time
+              >
+            </a>
+          </div>
+          
+            <a class="archive-article-title" href="http://localhost:39471/reichan-site/post/api-changes/"
+              >API changes! We are now using C#</a
+            >
+          
+        </li>
+      
+        <li class="archive-article">
+          <div class="archive-article-date-wrap">
+            <a href="http://localhost:39471/reichan-site/post/reichan-rise/">
               <time
                 class="dt-published"
                 datetime="2025-01-16 22:13:00 -0300 -03"
@@ -717,7 +697,7 @@
             </a>
           </div>
           
-            <a class="archive-article-title" href="http://localhost:1313/reichan-site/post/reichan-rise/"
+            <a class="archive-article-title" href="http://localhost:39471/reichan-site/post/reichan-rise/"
               >The Rise of Reichan</a
             >
           
@@ -766,6 +746,9 @@
   
   
 
+  
+  
+
 
 
 <footer id="footer">
@@ -797,7 +780,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            171
+            320
           </span
         >
         &nbsp;|&nbsp;
@@ -805,7 +788,7 @@
           
           
 
-          00:01
+          00:02
         </span>
       </div>
     
@@ -857,7 +840,7 @@
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
@@ -867,7 +850,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -937,22 +920,6 @@
         
       </div>
       <div class="sidebar-menu-link">Friend</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a
-        class="sidebar-menu-link-dummy"
-        href="/reichan-site/api-docs"
-        aria-label=""
-      ></a>
-      <div class='sidebar-menu-icon icon rotate'>
-        
-          
-            &#xe62b;
-          
-        
-      </div>
-      <div class="sidebar-menu-link"></div>
     </div>
   
 </div>
@@ -1164,7 +1131,7 @@
 
 <script>
   if (window.firework) {
-    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"#ff5252\",\"#ff7c7c\",\"#ffafaf\",\"#ffd0d0\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"#ff0000\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"#34A8D6\",\"#56b6dc\",\"#78c5e3\",\"#aadbee\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"#33a8d7\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
     options.excludeElements = options.excludeelements;
     delete options.excludeelements;
     window.firework(options);
@@ -1189,9 +1156,9 @@
         window.REIMU_POST = {
           author: "Reichan",
           title: "",
-          url: "http:\/\/localhost:1313\/reichan-site\/archives\/",
+          url: "http:\/\/localhost:39471\/reichan-site\/archives\/",
           description: "",
-          cover: "http:\/\/localhost:1313\/reichan-site\/images\/reibanner.jpg",
+          cover: "http:\/\/localhost:39471\/reichan-site\/images\/reibanner.jpg",
         };
       </script>
     
@@ -1310,6 +1277,41 @@
   );
 </script>
 
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"
+    
+    
+    
+    
+    integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr&#43;h5UfruuRL/aORyw&#43;5&#43;HZoU6e" crossorigin="anonymous"
+  ></script>
+
+
+  
+    <script>
+      const ap = new APlayer({
+          container: document.getElementById('aplayer'),
+          audio: JSON.parse("[{\"artist\":\"Eva\",\"cover\":\"images/rei-nerd.webp\",\"name\":\"Evangelion Op\",\"theme\":\"#ebd0c2\",\"url\":\"audios/eva-opening.mp3\"}]") || [],
+          fixed:  false  || false,
+          autoplay:  true  || false,
+          loop: 'all' || 'all',
+          order: 'random' || 'list',
+          preload: 'auto' || 'auto',
+          volume:  0.5  || 0.7,
+          mutex:  true  || true,
+          listFolded:  true  || false,
+      });
+    </script>
+  
 
 
 

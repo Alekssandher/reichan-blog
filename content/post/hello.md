@@ -15,11 +15,9 @@ layout: post
 keywords: ['Reichan', 'API', 'TypeScript']
 readingTime: true
 series: ['Reichan Chronicles']
-
-
 ---
 
-![Rei liying under the blanket](images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg "Rei liying under the blanket")
+![Rei liying under the blanket](https://github.com/Alekssandher/reichan-site/blob/main/static/images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg?raw=true "Rei liying under the blanket")
 
 Welcome to the journey of Reichan! You might be wondering, "What exactly is Reichan?" Well, it's a completely (not at all) chan, and we’re diving deep into building a custom API with TypeScript.
 ## Building Reichan: From Concept to Code

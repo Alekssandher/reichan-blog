@@ -17,9 +17,6 @@ menu:
   - name: friend
     url: "friend"
     icon:
-  - name: API
-    url: "api-docs"
-    icon:
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -117,7 +114,7 @@ widgets:
   - recent_posts
   - category
   - tag
-  - tagcloud
+  # - tagcloud
  
 
 # Widget behavior
@@ -313,7 +310,7 @@ algolia_search:
 preloader:
   enable: true
   text: Loading...
-  icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+  icon: images/rei-img.png # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
 
 # see https://github.com/D-Sketon/aos.js
 animation:
@@ -350,7 +347,7 @@ firework:
       - shape: circle
         move: ["emit"]
         easing: easeOutExpo
-        colors: ["#ff5252", "#ff7c7c", "#ffafaf", "#ffd0d0"]
+        colors: ["#34A8D6", "#56b6dc", "#78c5e3", "#aadbee"]
         number: 20
         duration: [1200, 1800]
         shapeOptions:
@@ -359,7 +356,7 @@ firework:
       - shape: circle
         move: ["diffuse"]
         easing: easeOutExpo
-        colors: ["#ff0000"]
+        colors: ["#33a8d7"]
         number: 1
         duration: [1200, 1800]
         shapeOptions:
@@ -479,30 +476,30 @@ pace:
 # Please turn on pjax to use this feature
 player:
   aplayer:
-    enable: false
+    enable: true
     options:
       audio: 
         - name: 'Evangelion Op'
           artist: 'Eva'
-          url: 'https://ia600907.us.archive.org/30/items/tvtunes_7772/Neon%20Genesis%20Evangelion.ogg'
+          url: 'audios/eva-opening.mp3'
           cover: 'images/rei-nerd.webp'
           theme: '#ebd0c2'
-      fixed: true
+      fixed: false
       autoplay: true
       loop: 'all'
       order: 'random'
       preload: 'auto'
-      volume: 0.7
+      volume: 0.5
       mutex: true
       listFolded: true
 
-  meting:
-    # https://github.com/metowolf/MetingJS
-    # if you want to use meting, please enable aplayer first
-    enable: false
-    meting_api: # custom api
-    options:
-      id: 2265921590
-      server: netease
-      type: playlist
-      auto: 
+meting:
+  # https://github.com/metowolf/MetingJS
+  # if you want to use meting, please enable aplayer first
+  enable: false
+  meting_api: # custom api
+  options:
+    id: 2265921590
+    server: netease
+    type: playlist
+    auto: 
