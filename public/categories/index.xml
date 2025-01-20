@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Reichan Blog</title>
-    <link>http://localhost:39471/reichan-site/categories/</link>
+    <link>http://localhost:6020/reichan-blog/categories/</link>
     <description>Recent content in Categories on Reichan Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 11:41:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:39471/reichan-site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:6020/reichan-blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>http://localhost:39471/reichan-site/categories/development/</link>
-      <pubDate>Sat, 18 Jan 2025 11:41:00 -0300</pubDate>
-      <guid>http://localhost:39471/reichan-site/categories/development/</guid>
+      <link>http://localhost:6020/reichan-blog/categories/development/</link>
+      <pubDate>Sun, 19 Jan 2025 11:41:00 -0300</pubDate>
+      <guid>http://localhost:6020/reichan-blog/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>http://localhost:39471/reichan-site/categories/project/</link>
-      <pubDate>Sat, 18 Jan 2025 11:41:00 -0300</pubDate>
-      <guid>http://localhost:39471/reichan-site/categories/project/</guid>
+      <link>http://localhost:6020/reichan-blog/categories/project/</link>
+      <pubDate>Sun, 19 Jan 2025 11:41:00 -0300</pubDate>
+      <guid>http://localhost:6020/reichan-blog/categories/project/</guid>
       <description></description>
     </item>
   </channel>

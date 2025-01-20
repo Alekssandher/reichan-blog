@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Reichan Site</title>
+    <link>http://localhost:1313/tags/r/</link>
+    <description>Recent content in R on Reichan Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jan 2025 22:13:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The rise of Reichan</title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Thu, 16 Jan 2025 22:13:00 -0300</pubDate>
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg&#34; alt=&#34;Rei liying under the blanket&#34; title=&#34;Rei liying under the blanket&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We are here to celebrate the rise of Reichan, but what&amp;rsquo;s Reichan you must be asking yourself. Reichan Is a completely (not at all) chan, we are building our own API with TypeScript and for the next we&amp;rsquo;ll make a simple html/css based interface.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

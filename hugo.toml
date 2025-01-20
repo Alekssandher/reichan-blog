@@ -1,4 +1,4 @@
-baseURL = 'https://alekssandher.github.io/reichan-site/'
+baseURL = 'https://alekssandher.github.io/reichan-blog/'
 languageCode = 'en-us'
 title = 'Reichan Blog'
 description = 'Blog of the Reichan Labs. Here we talk about the latest news from Reichan Labs.'

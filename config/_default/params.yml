@@ -274,9 +274,9 @@ gitalk:
 
 # https://giscus.app/zh-CN
 giscus:
-  enable: false
-  repo:
-  repoId:
+  enable: true
+  repo: https://github.com/Alekssandher/reichan-blog
+  repoId: 917962665
   category:
   categoryId:
   mapping: mapping
