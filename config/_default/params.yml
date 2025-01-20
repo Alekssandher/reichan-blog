@@ -279,7 +279,7 @@ giscus:
   repoId: R_kgDONrb_qQ
   category: Comments
   categoryId: DIC_kwDONrb_qc4CmLXf
-  mapping: mapping
+  mapping: pathname
   strict: 0
   reactionsEnabled: 1
   emitMetadata: 0
