@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reichan Blog</title>
-    <link>http://localhost:6020/reichan-blog/post/</link>
+    <link>http://localhost:6021/reichan-blog/post/</link>
     <description>Recent content on Reichan Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jan 2025 22:13:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:6020/reichan-blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jan 2025 11:41:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:6021/reichan-blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Changes: Embracing C#</title>
+      <link>http://localhost:6021/reichan-blog/post/api-changes/</link>
+      <pubDate>Mon, 20 Jan 2025 11:41:00 -0300</pubDate>
+      <guid>http://localhost:6021/reichan-blog/post/api-changes/</guid>
+      <description>We&amp;rsquo;re making a big shift in our development approach, leaving TypeScript behind and diving into the powerful world of C#.</description>
+    </item>
     <item>
       <title>The Rise of Reichan</title>
-      <link>http://localhost:6020/reichan-blog/post/the-rise-of-reichan/</link>
+      <link>http://localhost:6021/reichan-blog/post/the-rise-of-reichan/</link>
       <pubDate>Thu, 16 Jan 2025 22:13:00 -0300</pubDate>
-      <guid>http://localhost:6020/reichan-blog/post/the-rise-of-reichan/</guid>
+      <guid>http://localhost:6021/reichan-blog/post/the-rise-of-reichan/</guid>
       <description>Discover the rise of Reichan, a journey into building an API with TypeScript!</description>
     </item>
   </channel>

@@ -15,6 +15,7 @@ layout: post
 keywords: ['Reichan', 'API', 'TypeScript']
 readingTime: true
 series: ['Reichan Chronicles']
+copyright: true
 ---
 
 ![Rei liying under the blanket](https://github.com/Alekssandher/reichan-site/blob/main/static/images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg?raw=true "Rei liying under the blanket")

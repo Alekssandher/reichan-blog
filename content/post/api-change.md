@@ -26,6 +26,7 @@ keywords:
   - API
   - TypeScript
   - C#
+
 ---
 
 ![Rei shots the big boss of script languages](https://github.com/Alekssandher/reichan-site/blob/main/static/images/posts/api-changes/rei-kills-typescript.png?raw=true "Rei shoting TypeScript with a sniper rifle") 
