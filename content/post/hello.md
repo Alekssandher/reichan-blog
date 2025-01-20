@@ -8,7 +8,7 @@ tags: ['Reichan', 'API', 'TypeScript']
 categories: ['Development', 'Project']
 author: 'Reichan'
 summary: 'Discover the rise of Reichan, a journey into building an API with TypeScript!'
-slug: 'reichan-rise'
+slug: 'the-rise-of-reichan'
 socialImage: images/posts/the-rise-of-reichan/rei-sleeping-under-the-blanket.jpg
 draft: false
 layout: post
