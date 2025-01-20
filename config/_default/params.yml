@@ -265,11 +265,11 @@ twikoo:
 # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 gitalk:
   enable: false
-  clientID:
-  clientSecret:
-  repo:
-  owner:
-  admin:
+  clientID: Ov23liNZnBwTzfrejm0p
+  clientSecret: 1ff63ae6275319d440c408633811c937f03f9d1d
+  repo: Alekssandher/reichan-blog
+  owner: Alekssandher
+  admin: Alekssandher
   md5: false
 
 # https://giscus.app/zh-CN
@@ -293,8 +293,8 @@ giscus:
 
 algolia_search:
   enable: true
-  appID:
-  apiKey:
+  appID: 
+  apiKey: 
   indexName:
   hits:
     per_page: 10

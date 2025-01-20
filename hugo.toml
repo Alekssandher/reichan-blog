@@ -4,6 +4,7 @@ title = 'Reichan Blog'
 description = 'Blog of the Reichan Labs. Here we talk about the latest news from Reichan Labs.'
 
 theme = 'hugo-theme-reimu'
+comments = true
 
 [params]
   pjax = true
