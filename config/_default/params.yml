@@ -482,7 +482,7 @@ player:
         - name: "The Cruel Angel's Thesis"
           artist: 'Yoko Takahashi'
           url: 'audios/eva-opening.mp3'
-          cover: 'images/covers/eva-cover.jpg'
+          cover: 'images/covers/eva-cover.png'
           theme: '#61473D'
 
         - name: "I. Shinji - Shinji's Theme"
